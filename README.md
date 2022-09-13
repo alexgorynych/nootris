@@ -13,7 +13,7 @@ _https://www.figma.com/file/o8KBWl9zTNrwOHNuUknXbz/Test?node-id=3%3A2_
 
 1. Клонируем репозиторий
 2. `npm install`
-3. `npm run start`
+3. `npm run watch`
 
 ### Сборка продакшена
 
