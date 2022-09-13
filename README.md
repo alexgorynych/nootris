@@ -17,4 +17,4 @@ _https://www.figma.com/file/o8KBWl9zTNrwOHNuUknXbz/Test?node-id=3%3A2_
 
 ### Сборка продакшена
 
-`npm run prod`
+`npm run build`
