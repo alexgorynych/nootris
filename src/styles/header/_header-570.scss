@@ -1,0 +1,10 @@
+.header {
+    p {
+        margin-top: 12px;
+    }
+
+    &::after {
+        top: 60px;
+        right: -60px;
+    }
+}

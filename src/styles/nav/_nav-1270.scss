@@ -1,0 +1,25 @@
+.nav {
+    > .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__list {
+        margin-left: auto;
+        margin-right: 30px;
+
+        > li {
+            display: none;
+            margin: 0;
+
+            &:last-child {
+                display: inline;
+            }
+        }
+    }
+
+    &__user {
+        display: block;
+    }
+}

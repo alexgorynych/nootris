@@ -1,0 +1,54 @@
+@import "./styles/default/default";
+
+@import "./styles/variables/colors";
+@import "./styles/variables/fonts";
+
+@import "./styles/general/general";
+@import "./styles/general/buttons";
+@import "./styles/general/links";
+
+@import "./styles/nav/nav";
+@import "./styles/menu/menu";
+
+@import "./styles/header/header";
+@import "./styles/discount/discount";
+
+@media screen and (min-width: 1440px) {
+    @import "./styles/header/header-1440+";
+}
+
+@media screen and (max-width: 1270px) {
+    @import "./styles/variables/fonts-1270";
+
+    @import "./styles/general/general-1270";
+
+    @import "./styles/nav/nav-1270";
+    @import "./styles/menu/menu-1270";
+
+    @import "./styles/header/header-1270";
+
+    @import "./styles/discount/discount-1270";
+}
+
+@media screen and (max-width: 812px) {
+    @import "./styles/variables/fonts-812";
+
+    @import "./styles/general/general-812";
+
+    @import "./styles/nav/nav-812";
+
+    @import "./styles/header/header-812";
+}
+
+@media screen and (max-width: 570px) {
+    @import "./styles/variables/fonts-570";
+
+    @import "./styles/general/general-570";
+
+    @import "./styles/nav/nav-570";
+    @import "./styles/menu/menu-570";
+
+    @import "./styles/header/header-570";
+
+    @import "./styles/discount/discount-570";
+}

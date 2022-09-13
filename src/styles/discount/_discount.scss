@@ -1,0 +1,90 @@
+.discount {
+    color: $light-color;
+
+    h2 {
+        @extend %H2;
+        text-align: center;
+
+        > span {
+            color: $fresh-color;
+        }
+    }
+
+    &__price,
+    &__old-price {
+        font-weight: 400;
+    }
+
+    &__price {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        @extend %H2;
+
+        margin-top: 85px;
+    }
+
+    &__old-price {
+        @extend %H3;
+
+        text-decoration: line-through;
+        color: $secondary-color;
+    }
+
+    &__wrapper {
+        display: grid;
+        grid-template-areas: "ginger nootris virus";
+        justify-items: center;
+
+        margin-top: 64px;
+    }
+
+    &__item {
+        @extend %BODY2;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        max-width: 192px;
+
+        text-align: center;
+
+        p {
+            margin-top: 45px;
+        }
+
+        span {
+            color: $fresh-color;
+        }
+
+        &:first-child {
+            grid-area: ginger;
+        }
+
+        &:nth-child(2) {
+            grid-area: nootris;
+
+            max-width: 480px;
+
+            @extend %H3;
+            font-weight: 400;
+            span {
+                @extend %BODY1;
+            }
+        }
+
+        &:last-child {
+            grid-area: virus;
+        }
+    }
+
+    &__btn {
+        @extend %button;
+
+        margin: 0 auto;
+        margin-top: 64px;
+    }
+}

@@ -1,0 +1,98 @@
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: $bg-color;
+    padding: 23px 0;
+
+    z-index: 2;
+
+    > .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        display: block;
+
+        width: 120px;
+        height: 34px;
+
+        border-radius: 5px;
+
+        background-image: url("IMGS/logo.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        transition: all 0.3s;
+
+        &:hover,
+        &:focus {
+            background-image: url("IMGS/logo-hover.svg");
+        }
+        &:focus {
+            outline: 1px solid $fresh-color;
+        }
+    }
+
+    &__list {
+        display: flex;
+
+        > li {
+            margin-left: 40px;
+
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+
+    &__link {
+        @extend %BODY2;
+        @extend %link;
+    }
+
+    &__icon {
+        display: block;
+
+        width: 34px;
+        height: 34px;
+
+        border-radius: 5px;
+
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        transition: all 0.3s;
+
+        &:focus {
+            outline: 1px solid $fresh-color;
+        }
+    }
+
+    &__basket {
+        background-image: url("ICONS/basket.svg");
+
+        &:hover,
+        &:focus {
+            background-image: url("ICONS/basket-hover.svg");
+        }
+    }
+
+    &__wrapper {
+        display: grid;
+        grid-auto-flow: column;
+        gap: 24px;
+    }
+
+    &__user {
+        display: none;
+        background-image: url("ICONS/user.svg");
+
+        &:hover,
+        &:focus {
+            background-image: url("ICONS/user-hover.svg");
+        }
+    }
+}

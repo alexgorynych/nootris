@@ -1,0 +1,15 @@
+%link {
+    color: $light-color;
+    border-radius: 5px;
+    transition: all 0.3s;
+
+    &:hover,
+    &:focus {
+        color: $fresh-color;
+        text-decoration: underline;
+    }
+
+    &:focus {
+        outline: 1px solid $fresh-color;
+    }
+}

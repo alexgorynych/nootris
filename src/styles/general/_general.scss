@@ -1,0 +1,12 @@
+.container,
+section {
+    max-width: 1440px;
+
+    padding: 0 64px;
+    margin: 0 auto;
+}
+
+main {
+    background-color: $bg-color;
+    padding: 110px 0;
+}

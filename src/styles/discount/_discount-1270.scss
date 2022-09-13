@@ -1,0 +1,33 @@
+.discount {
+    &__price {
+        margin-top: 60px;
+    }
+
+    &__wrapper {
+        grid-template-areas: "nootris nootris" "ginger virus";
+
+        margin-top: 40px;
+
+        gap: 20px;
+    }
+
+    &__item {
+        max-width: 192px;
+
+        p {
+            margin-top: 12px;
+        }
+
+        &:nth-child(2) {
+            max-width: 430px;
+
+            p {
+                margin-top: 36px;
+            }
+        }
+    }
+
+    &__btn {
+        margin-top: 40px;
+    }
+}

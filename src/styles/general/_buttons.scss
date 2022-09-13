@@ -1,0 +1,26 @@
+%button {
+    @extend %BODY2;
+
+    display: block;
+
+    min-width: 256px;
+    max-width: fit-content;
+
+    padding: 0.89em 1.78em;
+    border-radius: 7px;
+
+    text-align: center;
+
+    background-color: $fresh-color;
+    color: $dark-color;
+
+    transition: all 0.3s;
+
+    &:hover {
+        background-color: $additional-color;
+    }
+
+    &:focus {
+        outline: 1px solid $additional-color;
+    }
+}

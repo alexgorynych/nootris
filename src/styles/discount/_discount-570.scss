@@ -1,0 +1,21 @@
+.discount {
+    &__price {
+        margin-top: 40px;
+    }
+
+    &__wrapper {
+        column-gap: 10px;
+    }
+
+    &__item {
+        max-width: 145px;
+
+        &:nth-child(2) {
+            max-width: 300px;
+
+            p {
+                margin-top: 30px;
+            }
+        }
+    }
+}

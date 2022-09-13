@@ -1,0 +1,27 @@
+.header {
+    padding-bottom: 64px;
+
+    h1 {
+        margin-top: 150px;
+    }
+
+    p {
+        margin-top: 24px;
+        max-width: 540px;
+    }
+
+    &__desc {
+        margin-top: 64px;
+
+        p {
+            margin-top: 16px;
+        }
+    }
+
+    &::after {
+        bottom: 0;
+        right: -50px;
+    }
+
+    overflow: hidden;
+}

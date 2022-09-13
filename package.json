@@ -1,0 +1,37 @@
+{
+    "name": "nootris",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "cross-env NODE_ENV=development webpack --mode development",
+        "prod": "cross-env NODE_ENV=production webpack --mode production",
+        "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open"
+    },
+    "keywords": [
+        "html",
+        "js",
+        "scss",
+        "webpack"
+    ],
+    "author": "alexgorynych <alex0n0xela@gmail.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/preset-env": "^7.19.0",
+        "babel-loader": "^8.2.5",
+        "clean-webpack-plugin": "^4.0.0",
+        "cross-env": "^7.0.3",
+        "css-loader": "^6.7.1",
+        "html-loader": "^4.1.0",
+        "html-webpack-plugin": "^5.5.0",
+        "mini-css-extract-plugin": "^2.6.1",
+        "node-sass": "^7.0.3",
+        "postcss-loader": "^7.0.1",
+        "postcss-preset-env": "^7.8.1",
+        "sass-loader": "^13.0.2",
+        "style-loader": "^3.3.1",
+        "webpack": "^5.74.0",
+        "webpack-cli": "^4.10.0",
+        "webpack-dev-server": "^4.11.0"
+    }
+}
