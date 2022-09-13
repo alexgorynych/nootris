@@ -2,6 +2,8 @@
 
 _https://www.figma.com/file/o8KBWl9zTNrwOHNuUknXbz/Test?node-id=3%3A2_
 
+### Результат можно посмортеть на Heroku
+
 ### Стек:
 
 -   **HTML**
